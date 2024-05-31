@@ -277,3 +277,8 @@ AWS_SECRET_ACCESS_KEY    lol
 PASSWORD                 somePasswordHere
 TOKEN                    SECRETIVE_API_TOKEN_HERE
 ```
+
+## Future Ideas
+
+- Enable KV v2 Secrets Engine in the destination Vault in the given destination mount path if it doesn't exist
+- Copy KV v2 Secrets Engine configuration from source to destination
